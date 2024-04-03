@@ -78,7 +78,10 @@ fun HomeScreen(navController: NavController) {
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
 
-            Text("Selamat Datang di Aplikasi Saya")
+            Text("Selamat Datang di Aplikasi Agil!!",
+                fontSize = 25.sp,
+                textAlign = TextAlign.Center,
+                fontWeight = FontWeight.Bold)
             Spacer(modifier = Modifier.height(16.dp))
             Image(
                 painter = painterResource(id = R.drawable.jt),
